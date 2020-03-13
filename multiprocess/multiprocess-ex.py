@@ -15,8 +15,8 @@ def do_something(times):
 processes = []
 
 if __name__ == '__main__':
-    for _ in range(10):
-        p = multiprocessing.Process(target=do_something, args=[10000000])
+    for _ in range(5):
+        p = multiprocessing.Process(target=do_something, args=[100000000])
         p.start()
         processes.append(p)
 
