@@ -1,0 +1,4 @@
+*.accdb
+*.tif
+*.jpg
+venv/
